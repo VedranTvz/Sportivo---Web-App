@@ -1,0 +1,73 @@
+﻿body, html {
+    overflow-x: hidden;
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+tr:nth-child(even) {
+
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+
+    background: #FFF;
+}
+
+th, td {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.pagination-button {
+    border: 1px solid #333; 
+    background-color: white; 
+    color: black; 
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: 0.3s;
+    font-size:18px
+}
+
+.pagination-button:hover:not(:disabled) {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    .pagination-button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+
+.custom-button {
+
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.custom-button:hover {
+
+   background-color: white;
+   color: black;
+   text-decoration: none;
+   border-color: white;
+}
+
+
